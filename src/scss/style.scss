@@ -1,0 +1,37 @@
+@import "./base/base";
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/title";
+@import "./base/button";
+@import "./base/input";
+@import "./base/modal";
+
+@import "./blocks/header";
+@import "./blocks/intro";
+@import "./blocks/menuBlock";
+@import "./blocks/category";
+@import "./blocks/products";
+@import "./blocks/aboutus";
+@import "./blocks/about";
+@import "./blocks/footer";
+@import "./blocks/notification";
+@import "./blocks/filter";
+@import "./blocks/catalogIntro";
+@import "./blocks/catalogCarts";
+@import "./blocks/catalogList";
+@import "./blocks/servisIntro";
+@import "./blocks/productIntro";
+@import "./blocks/productAbout";
+@import "./blocks/gallery";
+@import "./blocks/video";
+@import "./blocks/params";
+@import "./blocks/accessories";
+@import "./blocks/more";
+@import "./blocks/mapBlock";
+@import "./blocks/basketBlock";
+@import "./blocks/basketTable";
+@import "./blocks/basketLinks";
+@import "./blocks/basketForm";
+
+@import "./fonts/fonts.scss";
+@import "./fonts/icons.scss";

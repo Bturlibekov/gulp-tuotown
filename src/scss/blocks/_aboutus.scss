@@ -1,0 +1,137 @@
+.aboutus {
+    width: 100%;
+    overflow: hidden;
+}
+
+.aboutus__tuotown {
+    display: grid;
+    grid-template-columns: 300px auto;
+    column-gap: 80px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+// .aboutus__tuotown-img {}
+
+// .aboutus__tuotown-body {}
+
+.aboutus__body-title {
+    max-width: 580px;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: Jura;
+    line-height: 42px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.aboutus__body-text {
+    max-width: 672px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+}
+
+.aboutus__tuotown.__knife {
+    display: grid;
+    grid-template-columns: auto 300px;
+    margin: 0;
+
+    .aboutus__body-title {
+        max-width: 700px;
+        font-size: 28px;
+        line-height: 36px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        color: #fff;
+    }
+
+    .aboutus__body-text {
+        max-width: 811px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .aboutus__tuotown {
+        align-items: baseline;
+
+        .aboutus__body-title {
+            margin-bottom: 25px;
+        }
+
+        .aboutus__body-text {
+            color: #ADACAC;
+        }
+    }
+
+    .aboutus__tuotown.__knife {
+        align-items: baseline;
+
+        .aboutus__tuotown-body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .aboutus__tuotown-img {
+            img {
+                width: 300px;
+                height: 302px;
+            }
+        }
+
+        .aboutus__body-title {
+            order: 1;
+            margin-top: 0px;
+            margin-bottom: 25px;
+        }
+
+        .aboutus__body-text {
+            order: 2;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutus__tuotown {
+        grid-template-columns: auto;
+    }
+
+    .aboutus__tuotown-img {
+        height: 302px;
+        margin-bottom: 30px;
+    }
+
+    .aboutus__tuotown.__knife {
+        grid-template-columns: auto;
+
+        .aboutus__tuotown-img {
+            order: 1;
+            height: 302px;
+            margin-bottom: 30px;
+        }
+
+        .aboutus__tuotown-body {
+            order: 2;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutus__tuotown-img {
+        height: auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .aboutus__tuotown.__knife {
+        .aboutus__tuotown-img {
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

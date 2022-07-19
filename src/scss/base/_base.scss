@@ -1,0 +1,40 @@
+body {
+    font-family: Montserrat;
+    background-color: #373737;
+
+    &.header__padding {
+        padding-bottom: 71px;
+    }
+
+    &.body__nav {
+        overflow: hidden;
+        padding-right: 15px;
+    }
+}
+
+.main__page {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.basket__container {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+hr {
+    height: 2px;
+    opacity: 0.1;
+    margin: 60px 0;
+    background-color: #fff;
+}
+
+@import "./scroll";

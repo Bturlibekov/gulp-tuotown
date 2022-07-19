@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'icon';
+  src:
+    url('../fonts/icon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #fff;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e900";
+}
+
+.icon-check:before {
+  content: "\e901";
+}
+
+.icon-mail:before {
+  content: "\e902";
+}
+
+.icon-map:before {
+  content: "\e903";
+}
+
+.icon-menu:before {
+  content: "\e904";
+}
+
+.icon-phone:before {
+  content: "\e905";
+}
+
+.icon-property-arrow:before {
+  content: "\e906";
+}
+
+.icon-star:before {
+  content: "\e907";
+}
+
+.icon-property-check:before {
+  content: "\e908";
+}
+
+.icon-property-down:before {
+  content: "\e909";
+}
+
+.icon-property-left:before {
+  content: "\e90a";
+}
+
+.icon-property-right:before {
+  content: "\e90b";
+}
+
+.icon-property-up:before {
+  content: "\e90c";
+}
+
+.icon-times:before {
+  content: "\e90d";
+}
+
+.icon-property-plus:before {
+  content: "\e90e";
+}
+
+.icon-search:before {
+  content: "\e90f";
+}
+
+.icon-typeshop:before {
+  content: "\e910";
+}

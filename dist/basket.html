@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Корзина</title>
+</head>
+
+<body class="page__basket">
+    <header class="header">
+    <div class="header__menu">
+        <div class="header__navigation">
+            <button class="nav__toggle icon-menu" id="navToggle"></button>
+            <button class="map icon-map"></button>
+            <button class="phone-icon icon-phone"></button>
+            <button class="call">8 981 120-11-17</button>
+        </div>
+        <div class="logo">
+            <img src="img/logo.png">
+        </div>
+        <div class="header__info">
+            <button class="basket-icon icon-typeshop" disabled></button>
+            <button class="mail-icon icon-mail"></button>
+            <button class="search-icon icon-search"></button>
+        </div>
+    </div>
+</header>
+    <main class="main__page __basket">
+        <div class="basket">
+    <div class="container">
+        <div class="basket__block">
+            <a href="#" class="basket__block-bread"><span class="icon-arrow"></span>К покупкам</a>
+            <div class="basket__title">
+                <h3 class="title">Корзина</h3>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="basket-table">
+    <div class="basket__container">
+        <div class="table__row">
+            <div class="table__column">
+    <div class="table__column-item">
+        <div class="table__item-img">
+            <img src="img/basket-icon-1.png">
+        </div>
+        <div class="table__item-name">Нож классного качества Knight light C653</div>
+    </div>
+    <div class="table__column-info">
+        <div class="table__info-amount">3 <span class="icon-property-up"></span></div>
+        <div class="table__info-price">744 тыс.р.</div>
+        <button class="icon-times delete"></button>
+    </div>
+</div>
+            <div class="table__column">
+    <div class="table__column-item">
+        <div class="table__item-img">
+            <img src="img/basket-icon-1.png">
+        </div>
+        <div class="table__item-name">Нож классного качества Knight light C653</div>
+    </div>
+    <div class="table__column-info">
+        <div class="table__info-amount">3 <span class="icon-property-up"></span></div>
+        <div class="table__info-price">744 тыс.р.</div>
+        <button class="icon-times delete"></button>
+    </div>
+</div>
+        </div>
+        <div class="table__total">
+            <div class="table__total-text">К оплате:</div>
+            <div class="table__total-price">747,9 тыс.р.</div>
+        </div>
+    </div>
+</div>
+        <div class="basket__links">
+    <div class="basket__container">
+        <div class="basket__links-body">
+            <div class="basket__body-link">
+                <div class="basket__link-icon">
+                    <span class="icon-map"></span>
+                </div>
+                <div class="basket__link-item">
+                    <a href="#" class="basket__item-link">Доставка</a>
+                    <p class="basket__item-text">Саратов, 25.10 бесплатно</p>
+                </div>
+            </div>
+            <div class="basket__body-link">
+                <div class="basket__link-icon">
+                    <span class="icon-check"></span>
+                </div>
+                <div class="basket__link-item">
+                    <a href="#" class="basket__item-link">Оплата</a>
+                    <p class="basket__item-text">Самый удобный для Вас: Картой на сайте</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="basket__form">
+    <div class="basket__container">
+        <div class="basket__form-body">
+            <div class="basket__body-title title">Для подтверждения заказа - введите ваши данные и мы перезвоним вам
+            </div>
+            <div class="basket__row">
+                <div class="basket__column-form">
+                    <div class="basket__form-input">
+                        <label for="basketName">Получатель</label>
+                        <input type="text" id="basketName" placeholder="Имя Фамилия">
+                        <span class="icon-star"></span>
+                    </div>
+                    <div class="basket__form-input">
+                        <label for="basketName">Мобильный телефон</label>
+                        <input type="text" id="basketName" value="+7 (___) ___-__-__">
+                        <span class="icon-star"></span>
+                    </div>
+                    <div class="basket__form-input">
+                        <label for="basketName">E-mail</label>
+                        <input type="text" id="basketName" placeholder="Ваша почта">
+                    </div>
+                </div>
+                <div class="basket__column-info">
+                    <div class="basket__info-item">
+                        Нажимая «Выбрать способ доставки», подтверждаю, что я ознакомлен с условиями
+                        <a href="#">Публичного договора оферты</a>
+                        и <a href="#">Политикой конфиденциальности</a>, а также согласен получать информационную
+                        рассылку
+                        <button class="submit" type="submit">Отправить форму</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="notification">
+    <h2 class="notification-title title">Узнавайте первым о новинках и новостях</h2>
+    <div class="notification-input">
+        <input type="text" placeholder="Ваш e-mail">
+        <button class="icon-property-left"></button>
+    </div>
+</div>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__body">
+            <div class="footer__body-info">
+                <div class="footer__info-header">
+                    <div class="footer__header-logo" style="background-image: url(../img/logo.png);"></div>
+                    <div class="footer__header-text">легендарные ножи, создающие шедевры</div>
+                </div>
+                <div class="footer__info-text">
+                    Компания «Tuotown» – эксклюзивный представитель профессиональных кухонных ножей, изготовленных
+                    лучшими мастерами Восточной Азии с применением передового европейского оборудования и современных
+                    материалов.
+                    <br>
+                    <br>
+                    Они отличаются идеальным балансом и фантастической остротой. Сочетают в себе вековые традиции
+                    и новейшие разработки. Также предлагаем широкий ассортимент сопутствующих товаров.
+                </div>
+            </div>
+            <div class="footer__body-links">
+                <div class="footer__links-item">
+                    <div class="footer__title">Информация</div>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Главная</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Новости</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">О компании</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__links-item">
+                    <div class="footer__title">Каталог</div>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Кухонные ножи</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Складные ножи</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Точилки для ножей</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Аксессуары</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__list-contacts">
+                    <div class="footer__title">Мы в соцсетях</div>
+                    <span>
+                        <img src="img/facebook.svg">
+                    </span>
+                    <span>
+                        <img src="img/vk.svg">
+                    </span>
+                    <span>
+                        <img src="img/instagram.svg">
+                    </span>
+                    <span>
+                        <img src="img/youtube.svg">
+                    </span>
+                </div>
+            </div>
+            <div class="footer__body-contacts">
+                <div class="footer__title">Контактная информация</div>
+                <div class="footer__contacts-number">+7 (981) 120-11-17</div>
+                <a href="#" class="footer__contacts-item __mail">tuotown@mail.ru</a>
+                <div class="footer__contacts-item __data">08:00 — 18:00, ежедневно</div>
+                <div class="footer__contacts-item __address">
+                    Россия, Москва, МКАД, 19-й километр,
+                    вл20с1, вход Ф, 22-68-70
+                </div>
+                <div class="footer__contacts-arrow">
+                    <img src="img/footer-arrow.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__end">
+        <div class="container">
+            <div class="footer__end-body">
+                <div class="footer__end-text">
+                    TUOTOWN © 2021 Торговая марка TUOTOWN зарегистрирована. Все права защищены и принадлежат правообладателям.
+                </div>
+                <div class="footer__end-img">
+                    <img src="img/mask.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <nav class="menu__block" id="menuBlock">
+    <ul class="menu__block-list">
+        <button class="menu__block-close icon-property-left" id="closeMenu"></button>
+        <li class="menu__list-item"><a href="#" class="menu__item-link">Кухонные ножи TUOTOWN</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__item-link">Складные ножи TUOTOWN</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__item-link">Кухонные ножи QXF</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__item-link">Точильные камни</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__item-link">Наборы для BBQ</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__item-link">Кухонные принадлежности</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__item-link">Туристические товары</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__item-link">Новости</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__item-link">О компании</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__item-link">Контакты</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__item-link">Как проехать</a></li>
+    </ul>
+</nav>
+    <div class="modal__overlay" data-modal-value="1">
+    <div class="modal__body">
+        <div class="modal__body-block">
+            <p>Ваш город<br><span>Москва</span>?</p>
+        </div>
+        <div class="modal__body-buttons">
+            <button class="modal__buttons-yes">Да</button>
+            <button class="modal__buttons-change">Изменить</button>
+        </div>
+    </div>
+</div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>

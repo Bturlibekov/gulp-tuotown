@@ -1,0 +1,35 @@
+@import "../mixins/mixins";
+
+.gallery {
+    width: 100%;
+    overflow: hidden;
+    background-color: #272727;
+}
+
+.gallery__row {
+    padding: 60px 0;
+}
+
+.gallery__column {
+    width: 100%;
+    height: 700px;
+    @include imageBackground(no-repeat, cover, center);
+}
+
+@media (max-width: 1024px) {
+    .gallery__column {
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery__column {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery__column {
+        height: 150px;
+    }
+}
